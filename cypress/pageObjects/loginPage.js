@@ -1,17 +1,21 @@
 class Login{
 
 
+    emailField="[name='email']";
+    passwordField="[name='password']";
+    loginButton=".w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn.sc-btn-primary.w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn-xl";
+
     setEmail(text){
-        cy.get("[name='email']").type(text)
+        cy.get(this.emailField).type(text)
     }
 
     setPassword(pass){
-        cy.get("[name='password']").type(pass)
+        cy.get(this.passwordField).type(pass)
 
     }
 
     clickButton(){
-        cy.get(".w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn.sc-btn-primary.w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn-xl").click
+        cy.get(this.passwordField).click
     }
 
 
