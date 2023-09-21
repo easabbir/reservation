@@ -1,62 +1,49 @@
-# reservation
+# Automation of Reservation module
 
-# Project Title
-
-One Paragraph of project description goes here
+This project is the automation of Reservation module
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Step: 1 Clone the Git Repository
+git clone https://github.com/easabbir/reservation.git
+
+Step: 2 Install Dependencies: Once the repository is cloned, navigate to the project's directory 
+If you use npm: npm install
+If you use yarn:yarn install
+
+This command will read the package.json file and install the required packages into the node_modules directory.
+
+Step: 3 On the project's directory
+npx cypress open
+
+By following these steps, you'll clone the Git repository, install the project's dependencies, and run the project 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Git: Ensure that Git is installed on your local machine. 
+You can download and install Git from the official website: https://git-scm.com/downloads
+To verify if Git is installed, open your command line or terminal and run: git --version
 
-```
-Give examples
-```
+Node.js and npm (or Yarn): 
+Node.js is required to execute JavaScript code and npm (Node Package Manager) or 
+Yarn is used for managing project dependencies. 
+You can download and install Node.js from the official website: https://nodejs.org/
 
-### Installing
+To verify if Node.js and npm are installed, run the following commands: 
+node --version
+npm --version
 
-A step by step series of examples that tell you how to get a development env running
+If you prefer Yarn, you can install it using npm: npm install -g yarn
+Then, you can check Yarn's version:
+yarn --version
 
-Say what the step will be
+Access to the Git Repository: You should have access to the Git repository from which you want to clone the project. 
+Ensure that you have the necessary permissions to clone the repository.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Project Documentation: It's helpful to have access to the project's documentation or README file. 
+This documentation typically provides instructions on how to set up and run the project, 
+including any specific commands or environment configurations required.
 
 ## Built With
 
@@ -68,13 +55,9 @@ Add additional notes about how to deploy this on a live system
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ehsanul Alam Sabbir** - *Initial work* - [easabbir](https://github.com/easabbir)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
