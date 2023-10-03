@@ -42,6 +42,6 @@ describe('Reservation Module', () => {
 
         cy.visit(reservationExpectedUrl)
         cy.wait(2000)
-        isBookNowVisible()
+        reservation.isBookNowVisible()
     })
 })
