@@ -9,7 +9,9 @@
   "author": "sabbir",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.2.0"
+    "cypress": "^13.2.0",
+    "jimp": "^0.22.10",
+    "qrcode-reader": "^1.0.4"
   },
   "devDependencies": {
     "cypress-xpath": "^2.0.1"

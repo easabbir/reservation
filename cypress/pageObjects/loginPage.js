@@ -1,27 +1,26 @@
-class Login{
+const emailField = "[name='email']";
+const passwordField = "[name='password']";
+const loginButton = ".w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn.sc-btn-primary.w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn-xl"
+const dashboard  = "//h1[@class='m-0' and text()='Order Dashboard']"
 
+class Login {
 
-    emailField="[name='email']";
-    passwordField="[name='password']";
-    loginButton=".w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn.sc-btn-primary.w-full.rounded.text-sm.font-bold.mb-0.normal-case.sc-btn-xl";
-
-    setEmail(text){
-        cy.get(this.emailField).type(text)
+    setEmail(text) {
+        cy.get(emailField).type(text)
     }
 
-    setPassword(pass){
-        cy.get(this.passwordField).type(pass)
+    setPassword(pass) {
+        cy.get(passwordField).type(pass)
 
     }
 
-    clickButton(){
-        cy.get(this.passwordField).click
+    clickedOnLoginButton() {
+        cy.get(loginButton).click()
     }
 
+    getDashboardTitle() {
+        return cy.xpath(dashboard).invoke('text');
+        }
 
 }
-
-//'ehsanul.alam+11@vivacomsolutions.com'
-//'Abbl_123'
-
 export default Login;
