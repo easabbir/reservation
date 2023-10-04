@@ -45,12 +45,22 @@ This command will read the package.json file and install the required packages i
 ![image](https://github.com/easabbir/reservation/assets/110620143/95b63945-15b0-4616-b498-3dac900c3dfb)
 
 
-**Step 3:** On the project's directory run the following command
+**Step 3:** On the project's directory run the following command to directly run this project in command prompt.
 ```bash
   npx cypress run
 ```
 ![image](https://github.com/easabbir/reservation/assets/110620143/a9c9a662-a354-4f88-a9bd-b3cf8639e65c)
 
+**If you want to see the test visually**
+  - Perform the following command. It will open cypress.
+```bash
+  npx cypress open
+```
+  - Select E2E Testing
+  - Select your desire browser and clicked on start E2E testing
+  - you will see spec files. Select any spec which one you want to run
+  - Spec will run automatically
+    ![image](https://github.com/easabbir/reservation/assets/110620143/df3b9a5f-214e-43a1-a488-fc0f3ff815df)
 
 **By following these steps, you'll clone the Git repository, install the project's dependencies, and run the project**
 
