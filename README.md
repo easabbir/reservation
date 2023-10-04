@@ -1,10 +1,30 @@
-# Automation of Reservation module
+##Automation of Reservation module
 
 This project is the automation of Reservation module
 
 ## Getting Started
-
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+## Prerequisites
+Git: Ensure that Git is installed on your local machine. You can download and install Git from the (official website.)[https://git-scm.com/downloads] To verify if Git is installed, open your command line or terminal and run the following command : 
+```bash
+  git --version
+```
+
+Node.js and npm (or Yarn): Node.js is required to execute JavaScript code and npm (Node Package Manager) or Yarn is used for managing project dependencies. You can download and install Node.js from the (official website)[https://nodejs.org/en/download] To verify if Node.js and npm are installed, run the following commands: 
+```bash
+  node --version
+```
+```bash
+  npm --version
+```
+If you prefer Yarn, you can install it using npm: npm install -g yarn Then, you can check Yarn's version. To verify yarn is installed run the following command.
+```bash
+  yarn --version
+```
+
+
+
 Step: 1 Clone the Git Repository
 git clone https://github.com/easabbir/reservation.git
 
@@ -19,24 +39,8 @@ npx cypress open
 
 By following these steps, you'll clone the Git repository, install the project's dependencies, and run the project 
 
-### Prerequisites
 
-Git: Ensure that Git is installed on your local machine. 
-You can download and install Git from the official website: https://git-scm.com/downloads
-To verify if Git is installed, open your command line or terminal and run: git --version
 
-Node.js and npm (or Yarn): 
-Node.js is required to execute JavaScript code and npm (Node Package Manager) or 
-Yarn is used for managing project dependencies. 
-You can download and install Node.js from the official website: https://nodejs.org/
-
-To verify if Node.js and npm are installed, run the following commands: 
-node --version
-npm --version
-
-If you prefer Yarn, you can install it using npm: npm install -g yarn
-Then, you can check Yarn's version:
-yarn --version
 
 Access to the Git Repository: You should have access to the Git repository from which you want to clone the project. 
 Ensure that you have the necessary permissions to clone the repository.
