@@ -25,7 +25,7 @@ If you prefer Yarn, you can install it using npm: npm install -g yarn Then, you 
 ![image](https://github.com/easabbir/reservation/assets/110620143/3efbf64b-888a-41aa-b57d-a41e08a3ad4c)
 
 ## Clone and Run this project
-**Step 1:**  open command prompt and run the following command
+**Step 1:**  Clone this Git Repository by open run the following command in command prompt
 ```bash
   git clone https://github.com/easabbir/reservation.git
 ```
