@@ -5,6 +5,7 @@ This project is the automation of Reservation module
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 Step: 1 Clone the Git Repository
 git clone https://github.com/easabbir/reservation.git
 
