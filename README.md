@@ -14,8 +14,6 @@ Git: Ensure that Git is installed on your local machine. You can download and in
 Node.js and npm (or Yarn): Node.js is required to execute JavaScript code and npm (Node Package Manager) or Yarn is used for managing project dependencies. You can download and install Node.js from the (official website)[https://nodejs.org/en/download] To verify if Node.js and npm are installed, run the following commands: 
 ```bash
   node --version
-```
-```bash
   npm --version
 ```
 If you prefer Yarn, you can install it using npm: npm install -g yarn Then, you can check Yarn's version. To verify yarn is installed run the following command.
