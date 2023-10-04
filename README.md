@@ -1,4 +1,4 @@
-# Automation of Reservation module
+## Automation of Reservation module
 
 This project is the automation of Reservation module
 
@@ -22,25 +22,37 @@ If you prefer Yarn, you can install it using npm: npm install -g yarn Then, you 
 ```bash
   yarn --version
 ```
+![image](https://github.com/easabbir/reservation/assets/110620143/3efbf64b-888a-41aa-b57d-a41e08a3ad4c)
+
+## Clone and Run this project
+**Step 1:**  open command prompt and run the following command
+```bash
+  git clone https://github.com/easabbir/reservation.git
+```
+![image](https://github.com/easabbir/reservation/assets/110620143/3472e455-ab51-4387-a0ab-5e29da49e5e7)
 
 
-
-Step: 1 Clone the Git Repository
-git clone https://github.com/easabbir/reservation.git
-
-Step: 2 Install Dependencies: Once the repository is cloned, navigate to the project's directory 
-If you use npm: npm install
-If you use yarn:yarn install
-
+**Step 2:** Installed all Dependencies: Once the repository is cloned, navigate to the project's directory and run the following command
+If you use npm
+```bash
+  npm install
+```
+If you use yarn
+```bash
+  yarn install
+```
 This command will read the package.json file and install the required packages into the node_modules directory.
-
-Step: 3 On the project's directory
-npx cypress open
-
-By following these steps, you'll clone the Git repository, install the project's dependencies, and run the project 
+![image](https://github.com/easabbir/reservation/assets/110620143/95b63945-15b0-4616-b498-3dac900c3dfb)
 
 
+**Step 3:** On the project's directory run the following command
+```bash
+  npx cypress run
+```
+![image](https://github.com/easabbir/reservation/assets/110620143/a9c9a662-a354-4f88-a9bd-b3cf8639e65c)
 
+
+**By following these steps, you'll clone the Git repository, install the project's dependencies, and run the project**
 
 Access to the Git Repository: You should have access to the Git repository from which you want to clone the project. 
 Ensure that you have the necessary permissions to clone the repository.
