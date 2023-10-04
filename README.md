@@ -6,12 +6,12 @@ This project is the automation of Reservation module
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Prerequisites
-Git: Ensure that Git is installed on your local machine. You can download and install Git from the (official website.)[https://git-scm.com/downloads] To verify if Git is installed, open your command line or terminal and run the following command : 
+Git: Ensure that Git is installed on your local machine. You can download and install Git from the [official website.](https://git-scm.com/downloads) To verify if Git is installed, open your command line or terminal and run the following command : 
 ```bash
   git --version
 ```
 
-Node.js and npm (or Yarn): Node.js is required to execute JavaScript code and npm (Node Package Manager) or Yarn is used for managing project dependencies. You can download and install Node.js from the (official website)[https://nodejs.org/en/download] To verify if Node.js and npm are installed, run the following commands: 
+Node.js and npm (or Yarn): Node.js is required to execute JavaScript code and npm (Node Package Manager) or Yarn is used for managing project dependencies. You can download and install Node.js from the [official website.](https://nodejs.org/en/download) To verify if Node.js and npm are installed, run the following commands: 
 ```bash
   node --version
 ```
