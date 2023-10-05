@@ -5,6 +5,13 @@ This project is the automation of Reservation module
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+Step: 1 Clone the Git Repository
+git clone https://github.com/easabbir/reservation.git
+
+Step: 2 Install Dependencies: Once the repository is cloned, navigate to the project's directory 
+If you use npm: npm install
+If you use yarn:yarn install
+
 ## Prerequisites
 Git: Ensure that Git is installed on your local machine. You can download and install Git from the [official website.](https://git-scm.com/downloads) To verify if Git is installed, open your command line or terminal and run the following command : 
 ``bash
