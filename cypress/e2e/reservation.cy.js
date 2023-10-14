@@ -1,14 +1,13 @@
+/// <reference types="cypress" />
 import Login from "../pageObjects/loginPage";
 import SideMenu from "../pageObjects/sideMenu";
 import Reservation from "../pageObjects/reservation";
-import { before } from "cypress/types/lodash";
-import { beforeEach } from "mocha";
 
 let config;
 let testdata;
 
 describe('Reservation Module', () => {
-    before(() => {
+    before(()=>{
         cy.fixture('config.json').then((data) => {
             config = data;
         });
@@ -16,11 +15,10 @@ describe('Reservation Module', () => {
         cy.fixture('testdata.json').then((data) => {
             testdata = data;
         });
-
         cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
     });
 
-    beforeEach(()=>{
+    beforeEach(() => {
         cy.visit("https://app.dev.shadowchef.co/login");
         const login = new Login();
         login.setEmail(config.email);
@@ -32,6 +30,7 @@ describe('Reservation Module', () => {
     });
 
     it('login into the system and verify Reservation QR URL', () => {
+        
         const menuBar = new SideMenu();
         menuBar.clickedOnThreeLine();
         menuBar.clickedOnReservation();
@@ -45,7 +44,7 @@ describe('Reservation Module', () => {
                 expect(reservationActualUrl).to.include(reservationExpectedUrl);
             });
         });
-        
+
         cy.visit(reservationExpectedUrl);
         cy.wait(2000);
         reservation.isBookNowVisible();
