@@ -1,11 +1,12 @@
-const setting = "//button[normalize-space()='Settings']"
+const Locations = "//button[normalize-space()='Locations']"
 const downloadQR = "//span[normalize-space()='Download']"
 const reservationQRUrl = "//div[@class='truncate']"
 const confirmDownload = ".text-sm.font-bold.mb-0.sc-btn.sc-btn-primary-outline.text-sm.font-bold.mb-0.sc-btn-lg"
 const bookNow = "//a[text()='Book Now']"
+
 class Reservation {
     clickedOnSetting() {
-        cy.xpath(setting).click()
+        cy.xpath(Locations).click()
     }
 
     downloadQRCode() {
