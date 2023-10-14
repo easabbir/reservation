@@ -7,7 +7,7 @@ let config;
 let testdata;
 
 describe('Reservation Module', () => {
-    before(()=>{
+    before('Setup config and test data', ()=>{
         cy.fixture('config.json').then((data) => {
             config = data;
         });
@@ -18,7 +18,7 @@ describe('Reservation Module', () => {
         cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
     });
 
-    beforeEach(() => {
+    beforeEach('Login into the system before every test', () => {
         cy.visit("https://app.dev.shadowchef.co/login");
         const login = new Login();
         login.setEmail(config.email);
@@ -29,8 +29,7 @@ describe('Reservation Module', () => {
         });
     });
 
-    it('login into the system and verify Reservation QR URL', () => {
-        
+    it('Validate Reservation QR URL', () => {
         const menuBar = new SideMenu();
         menuBar.clickedOnThreeLine();
         menuBar.clickedOnReservation();
