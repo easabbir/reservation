@@ -53,6 +53,6 @@ describe('Reservation Module', () => {
     it("Change openning and closing hours", () =>{
         const reservation = new Reservation();
         reservation.clickedOnLocation();
-        reservation.clickedOnClosingHourAndSelectedRandomValue()
+        reservation.clickedOnClosingHourAndSelectedRandomValue();
     })
 });
