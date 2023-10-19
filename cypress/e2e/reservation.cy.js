@@ -34,7 +34,7 @@ describe('Reservation Module', () => {
         menuBar.clickedOnThreeLine();
         menuBar.clickedOnReservation();
         const reservation = new Reservation();
-        reservation.clickedOnSetting();
+        reservation.clickedOnLocation();
         reservation.downloadQRCode();
 
         const reservationExpectedUrl = testdata.reservationExpectedUrl;

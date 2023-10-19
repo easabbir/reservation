@@ -5,7 +5,7 @@ const confirmDownload = ".text-sm.font-bold.mb-0.sc-btn.sc-btn-primary-outline.t
 const bookNow = "//a[text()='Book Now']"
 
 class Reservation {
-    clickedOnSetting() {
+    clickedOnLocation() {
         cy.xpath(Locations).click()
     }
 
