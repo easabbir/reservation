@@ -3,7 +3,7 @@ const downloadQR = "//span[normalize-space()='Download']"
 const reservationQRUrl = "//div[@class='truncate']"
 const confirmDownload = ".text-sm.font-bold.mb-0.sc-btn.sc-btn-primary-outline.text-sm.font-bold.mb-0.sc-btn-lg"
 const bookNow = "//a[text()='Book Now']"
-const save = ".rounded-full.border.border-primary.px-4.py-1.sc-btn.sc-btn-primary.rounded-full.border.border-primary.px-4.py-1.sc-btn-sm"
+const save = "//button[@class='rounded-full border border-primary px-4 py-1 sc-btn sc-btn-primary rounded-full border border-primary px-4 py-1 sc-btn-sm']"
 const closingHour = "tbody tr.border-grey td:nth-child(6) div:nth-child(1) div:nth-child(2) div:nth-child(1)"
 const openningHour = "tbody tr.border-grey td:nth-child(5) div:nth-child(1) div:nth-child(2) div:nth-child(1)"
 const selectHour = ".sc-timepicker-dropdown .hour-half .sc-timepicker-dropdown-row"
@@ -11,7 +11,7 @@ const selectMinute = ".sc-timepicker-dropdown .minute-half .sc-timepicker-dropdo
 
 class Reservation {
     clickedOnSave(){
-        cy.get(save).click()
+        cy.xpath(save).click({ force: true });
     }
     clickedOnOpeningHourAndSelectedRandomValue(){
         cy.get(openningHour).click()
